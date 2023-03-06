@@ -2,7 +2,7 @@
 
 This repository contains the python codes for the article "Network science meets history: Local balance in global international relations", written by Fernando Diaz-Diaz, Paolo Bartesaghi and Ernesto Estrada.
 
-Description of each notebook:
+Description of each file:
 
 1) descriptive_statistics some important variables of the temporal network of international relations (like the number of nodes, connected components, etc.)
 
