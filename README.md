@@ -18,7 +18,11 @@ Description of each notebook:
 
 7) extract_durations.py is an auxiliary file with functions needed to find the dration of alliances, conflicts and neutral events. It is used by the time_series_distributions notebook.
 
+8) county_codes_and_coordinates.csv contains the ISO_3, latitude and longitude of every country, among other things. It is used to translates full names to iso-3 names when needed, and to correctly position the nodes of the IR network over the world map.
+
+9) comments_time_series_distributions.txt specifies details about the process from which we created the excel files used in time_series_distributions.
+
 IMPORTANT: Data Set Not Included
-This repository does not include the data set used in the project. We do not possess the rights to distribute the data set, and it is the property of Prof. Zeev Maoz. If you require access to the data set, please contact Prof. Maoz directly at zmaoz@ucdavis.edu to request permission. We apologize for the inconvenience.
+This repository does not include the data set used in the project. We do not possess the rights to distribute the data set, because it is the property of Prof. Zeev Maoz. If you require access to the data set, please contact Prof. Maoz directly at zmaoz@ucdavis.edu to request permission. We apologize for the inconvenience.
 
 For any other question, please contact fernandodiaz@ifisc.uib-csic.es
