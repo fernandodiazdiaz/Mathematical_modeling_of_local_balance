@@ -1,7 +1,0 @@
-In the folder IET:
-The excel files named as Drops01-03-05 and Increses01-03-05  contain the intervals between two events for the countries which had a drop or increase below or above the threshold: -0.1, -0.3 -0,5 and +0.1, +0.3, +0.5 respectively. Note that below -0.1 include events below -0.3 and -0.5; events below -0.3 include events below -0.5, and so on.
-
-In the folder magnitude_drops:
-The file named Magnitude_Drops and Magnitude_Increases collect the actual value of the drop or increase for the same countries, filtering those that had at least -0.1 as drop or +0.1 as increase. Below -0.1 and above +0.1 you have all the events with their magnitude, so you can evaluate their 'importance' directly from the value and not only from the categorical classification we used before.
-
-
