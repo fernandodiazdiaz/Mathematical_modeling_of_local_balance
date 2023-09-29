@@ -1,26 +1,23 @@
 ### Netsci_meets_history ###
 
-This repository contains the python codes for the article "Network science meets history: Local balance in global international relations", written by Fernando Diaz-Diaz, Paolo Bartesaghi and Ernesto Estrada.
+This repository contains the python codes for the article "Local balance of signed networks: Definition and application to reveal historical events in international relations", written by Fernando Diaz-Diaz, Paolo Bartesaghi and Ernesto Estrada. Each section roughly corresponds to one directory of this repository.
 
-Description of each file:
+Description of each directory:
 
-1) descriptive_statistics some important variables of the temporal network of international relations (like the number of nodes, connected components, etc.)
+0) list_historical_events contains a list with the events considered to create the ground Truth matrix. The list includes year, country, sign (+1 for non-violent and -1 for violent) and brief description of the event.
 
-2) balance_timeseries plots the local balance of individual countries as a function of time.
+1)comparison_with_centrality_measures compares the local balance index with four other measures, both in two small networks and in the Gahuku-Gama dataset.
 
-3) synthetic_signed_cliques creates synthetic graphs of the form K_n(K_l^-) and calculates the local balance index of their nodes.
+2) Ground_Truth_Matrix_comparison contains the code to create the ground truth matrix of historical events, the local balance event matrix, and a script to find the correaltions between the two.
 
-4) find_negative_cliques was the program used to detect the K_n(K_l^-) present in the data set. 
+3) 3) GPR_comparison contains the code that compares the local balance time sereis with the GeoPolitical Risk timeseries.
 
-5) plot_maps plots a world map together with the IR network of a particular year. One can also choose to plot only a subgraph of the IR network.
+4) maps contains the code to plot a world map together with the IR network of a particular year. One can also choose to plot only a subgraph of the IR network.
 
-6) time_series_distributions creates histograms of the interevent time and size distributions, ausing the data contained in the excel files IET and magnitude_sizes, respectively. It also alculates the distribution of the duration of positive and negative edges, and neutral relations.
+5) balance_timeseries_analysis contains the codes used to create histograms of the interevent time and size distributions, using the data contained in the excel files IET and magnitude_sizes, respectively. It also calculates the distribution of the duration of positive and negative edges, and neutral relations. The file  extract_durations.py is an auxiliary file with functions needed to find the dration of alliances, conflicts and neutral events. It is used by the time_series_distributions notebook.
 
-7) extract_durations.py is an auxiliary file with functions needed to find the dration of alliances, conflicts and neutral events. It is used by the time_series_distributions notebook.
+6) county_codes_and_coordinates.csv contains the ISO_3, latitude and longitude of every country, among other things. It is used to translates full names to iso-3 names when needed, and to correctly position the nodes of the IR network over the world map.
 
-8) county_codes_and_coordinates.csv contains the ISO_3, latitude and longitude of every country, among other things. It is used to translates full names to iso-3 names when needed, and to correctly position the nodes of the IR network over the world map.
-
-9) comments_time_series_distributions.txt specifies details about the process from which we created the excel files used in time_series_distributions.
 
 IMPORTANT: Data Set Not Included
 This repository does not include the data set used in the project. We do not possess the rights to distribute the data set, because it is the property of Prof. Zeev Maoz. If you require access to the data set, please contact Prof. Maoz directly at zmaoz@ucdavis.edu to request permission. We apologize for the inconvenience.

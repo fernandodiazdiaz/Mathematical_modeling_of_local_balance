@@ -8,7 +8,7 @@ def initialize_df():
     global countries, years, N_countries, N_years
     # imports and cleans the dataframe of alliances and conflicts
     
-    df = pd.read_csv('allies_and_enemies_1816_2014_iso.csv')
+    df = pd.read_csv('../CoW_data/allies_and_enemies_1816_2014_iso.csv')
     df = df[(df['alliance'] != 0) | (df['conflict']!=0)]   #filter entries with no link
     df['weight'] = df['alliance']+df['conflict']+df['alliance']*df['conflict']
     df = df.drop(columns = ['alliance','conflict'])
