@@ -10,7 +10,7 @@ Description of each directory:
 
 2) Ground_Truth_Matrix_comparison contains the code to create the ground truth matrix of historical events, the local balance event matrix, and a script to find the correaltions between the two.
 
-3) 3) GPR_comparison contains the code that compares the local balance time sereis with the GeoPolitical Risk timeseries.
+3) GPR_comparison contains the code that compares the local balance time sereis with the GeoPolitical Risk timeseries.
 
 4) maps contains the code to plot a world map together with the IR network of a particular year. One can also choose to plot only a subgraph of the IR network.
 
@@ -18,7 +18,8 @@ Description of each directory:
 
 6) county_codes_and_coordinates.csv contains the ISO_3, latitude and longitude of every country, among other things. It is used to translates full names to iso-3 names when needed, and to correctly position the nodes of the IR network over the world map.
 
-
+7) In the main directory, the notebook balance_timeseries plots the time series of local balance for specific countries, and the function draw_network calls networkx to draw a given signed network.
+   
 IMPORTANT: Data Set Not Included
 This repository does not include the data set used in the project. We do not possess the rights to distribute the data set, because it is the property of Prof. Zeev Maoz. If you require access to the data set, please contact Prof. Maoz directly at zmaoz@ucdavis.edu to request permission. We apologize for the inconvenience.
 
