@@ -6,7 +6,7 @@ Description of each directory:
 
 0) list_historical_events contains a list with the events considered to create the ground Truth matrix. The list includes year, country, sign (+1 for non-violent and -1 for violent) and brief description of the event.
 
-1)comparison_with_centrality_measures compares the local balance index with four other measures, both in two small networks and in the Gahuku-Gama dataset.
+1) comparison_with_centrality_measures compares the local balance index with four other measures, both in two small networks and in the Gahuku-Gama dataset.
 
 2) Ground_Truth_Matrix_comparison contains the code to create the ground truth matrix of historical events, the local balance event matrix, and a script to find the correaltions between the two.
 
