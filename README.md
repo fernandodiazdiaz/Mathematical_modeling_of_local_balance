@@ -1,6 +1,9 @@
-### Netsci_meets_history ###
+### Mathematical modeling of local balance in signed networks and its applications to global international analysis ###
 
-This repository contains the python codes for the article "Local balance of signed networks: Definition and application to reveal historical events in international relations", written by Fernando Diaz-Diaz, Paolo Bartesaghi and Ernesto Estrada. Each section roughly corresponds to one directory of this repository.
+This repository contains the python codes for the article:
+
+Diaz-Diaz, Fernando, Paolo Bartesaghi, and Ernesto Estrada. "Mathematical modeling of local balance in signed networks and its applications to global international analysis." Journal of Applied Mathematics and Computing (2024): 1-24.
+Please cite the article if you use this software.
 
 Description of each directory:
 
@@ -20,7 +23,6 @@ Description of each directory:
 
 7) In the main directory, the notebook balance_timeseries plots the time series of local balance for specific countries, and the function draw_network calls networkx to draw a given signed network.
    
-IMPORTANT: Data Set Not Included
 This repository does not include the data set used in the project. We do not possess the rights to distribute the data set, because it is the property of Prof. Zeev Maoz. If you require access to the data set, please contact Prof. Maoz directly at zmaoz@ucdavis.edu to request permission. We apologize for the inconvenience.
 
 For any other question, please contact fernandodiaz@ifisc.uib-csic.es
